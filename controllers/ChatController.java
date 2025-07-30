@@ -65,8 +65,6 @@ import java.util.UUID;
             List<ChatDTO.Response> chats = chatService.getGroupChats();
             return ResponseEntity.ok(chats);
         }
-
-
     }
 
 
